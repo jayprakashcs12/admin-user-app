@@ -8,7 +8,9 @@ const Services = () => {
 
     return (
         <React.Fragment>
-            <h1 className='pro-head'>Services</h1>
+            <div className="pro-div">
+                <h1 className='pro-head'>Our Services</h1>
+            </div>
         </React.Fragment>
     )
 }
