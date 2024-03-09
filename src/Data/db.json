@@ -1,14 +1,18 @@
 {
-    "user": [
+    "admin": [
         {
+            "id": 1,
             "fname": "Jay",
             "mname": "Prakash",
             "lname": "Singh",
             "age": 30,
             "email": "jayprakash199221@gmail.com",
             "location": "Mirzapur"
-        },
+        }
+    ],
+    "user": [
         {
+            "id": 1,
             "fname": "Vishwajeet",
             "mname": "",
             "lname": "Singh",
