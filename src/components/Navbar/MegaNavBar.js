@@ -31,7 +31,6 @@ const MegaNavBar = (props) => {
                                     <NavLink to="/sql-development" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">SQL Development</NavLink>
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavLink to="/career" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Career</NavLink>
                             <NavLink to="/contact-us" style={({ isActive }) => ({ color: isActive ? "#4E81D5" : "#fff", fontWeight: isActive ? "bold" : "normal" })} className="links nav-links">Contact Us</NavLink>
                         </Nav>
                     </Navbar.Collapse>

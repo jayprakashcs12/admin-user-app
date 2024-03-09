@@ -29,7 +29,6 @@ const MicroNavBar = (props) => {
                                     <NavLink className="links small-nav-links" eventKey="5" as={Link} to="/sql-development">SQL Development</NavLink>
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavLink className="links small-nav-links" eventKey="6" as={Link} to="/career" >Career</NavLink>
                             <NavLink className="links small-nav-links" eventKey="7" as={Link} to="/contact-us" >Contact Us</NavLink>
                         </Nav>
                     </Navbar.Collapse>
