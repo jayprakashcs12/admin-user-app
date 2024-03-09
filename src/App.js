@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Header from "./Header";
-import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import NotFound from "./components/NotFound";
+import Header from "./components/Navbar/Header";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
+import Services from "./components/Pages/Services";
+import Contact from "./components/Pages/Contact";
+import NotFound from "./components/Pages/NotFound";
 
 function App() {
 
