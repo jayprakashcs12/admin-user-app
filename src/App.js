@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Navbar/Header";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
@@ -9,11 +9,9 @@ import NotFound from "./components/Pages/NotFound";
 
 function App() {
 
-  let location = useLocation();
-
   return (
     <React.Fragment>
-      {location.path !== '*' && <Header />}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />

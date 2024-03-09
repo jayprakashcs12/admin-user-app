@@ -1,0 +1,20 @@
+{
+    "user": [
+        {
+            "fname": "Jay",
+            "mname": "Prakash",
+            "lname": "Singh",
+            "age": 30,
+            "email": "jayprakash199221@gmail.com",
+            "location": "Mirzapur"
+        },
+        {
+            "fname": "Vishwajeet",
+            "mname": "",
+            "lname": "Singh",
+            "age": 30,
+            "email": "vishwa08@gmail.com",
+            "location": "Mirzapur"
+        }
+    ]
+}
